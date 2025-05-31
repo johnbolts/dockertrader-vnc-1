@@ -42,7 +42,7 @@ services:
     image: p3ps1man/dockertrader-vnc
     container_name: mt5
     environment:
-      - VNC_PASSWORD=123 
+      - VNC_PASSWORD=123
     ports:
       - "3000:3000"
     volumes:
